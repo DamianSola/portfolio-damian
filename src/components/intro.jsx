@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const Intro = () => {
     return(
-    <div className="md:p-8 p-6 flex flex-col md:flex-row md:justify-around md:min-h-dvh md:items-center bg-gradient-to-r from-cyan-500 to-blue-400">
+    <div className="md:p-8 p-6 flex flex-col md:flex-row md:justify-around md:min-h-dvh md:items-center bg-gradient-to-r from-cyan-500 to-blue-200 dark:to-blue-900 dark:from-cyan-500">
         
         <aside className="block md:hidden md:p-4 ">
             <Image src="https://img.freepik.com/fotos-premium/ilustracion-fotografias-stock_1137879-157821.jpg"
@@ -14,7 +14,7 @@ const Intro = () => {
             />
         </aside>
         
-        <div className=" text-center md:w-1/2">
+        <div className=" text-center md:w-1/2" data-aos="fade-up">
             <h1 className="text-3xl md:text-4xl md:py-6 py-4 font-bold">Welcome to my portfolio!</h1>
             <p className="text-ls md:text-xl md:py-6 py-4">
                 Hello! I'm Damian Sola and i'm software developer.
@@ -27,7 +27,7 @@ const Intro = () => {
             </div>
         </div>
 
-        <aside className="hidden md:block md:p-4 px-4">
+        <aside className="hidden md:block md:p-4 px-4" data-aos="fade-up">
             <Image src="https://img.freepik.com/fotos-premium/ilustracion-fotografias-stock_1137879-157821.jpg"
             width={500} height={500} alt='foto-perfil'
             className="rounded-full	w-full"

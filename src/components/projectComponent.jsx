@@ -12,7 +12,7 @@ const ProjectComponent = (props) => {
 
 
     return(
-        <div className="border border-gray-300 items-center rounded-lg p-6  md:m-2 m-4 shadow-md md:w-2/5 w-full ">
+        <div className="border border-gray-300 items-center rounded-lg p-6  md:m-2 m-4 shadow-md md:w-2/5 w-full" data-aos="fade-up">
 
             <aside className="flex items-center text-left">
                 <img src={image_url} width={90} height={90} alt="image-project" 

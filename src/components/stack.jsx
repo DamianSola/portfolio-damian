@@ -6,8 +6,8 @@ import { RiNodejsLine } from "react-icons/ri";
 const StackTech = ( ) => {
     return(
     <div className="w-full md:px-8 p-4 text-center" id='stack'>
-        <h1 className="text-2xl font-bold">Stack Tech</h1>
-        <div className="flex flex-wrap md:justify-around justify-between py-4 ">
+        <h1 className="text-2xl font-bold" data-aos="fade-up">Stack Tech</h1>
+        <div className="flex flex-wrap md:justify-around justify-between py-4 " data-aos="fade-up">
             <div className="text-center hover:scale-105 duration-75">
                 <SiReact size={50} className="w-20" />
                 <p className="text-lg">React</p>
