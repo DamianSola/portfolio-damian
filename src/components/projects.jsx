@@ -1,7 +1,7 @@
 'use client'
-// import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import ProjectComponent from './ProjectCompnent';
+import ProjectComponent from './projectComponent'
+import projectData from "./Data.json"
 
 
 const filtrarObjetosRepetidos = (array) => {
@@ -19,7 +19,9 @@ const Projects = () => {
 
     const [projects, setProjects] = useState([]);
 
-    console.log(projects)
+    console.log(projectData)
+
+
 
   useEffect(() => {
     // Función para obtener los despliegues
@@ -38,39 +40,23 @@ const Projects = () => {
   }, []);
 
   return (
-      <div className='block px-20 justify-center text-center'>
-        <h1 className="text-2xl">Projects</h1>
-        <div className='block w-2/3 '>
-            <h1 className="text-xl">My Proyects in Vercel</h1>
-            <div className='flex flex-wrap justify-left'>
-                {projects.map((project) => (
-                    <ProjectComponent
-                    key={project.uid}
-                    name={project.name}
-                    url={project.url}
-                    date={new Date(project.created).toLocaleString()}
-                    state={project.state}
-                    code={project.meta}
-                />))}
-            </div>
-      </div>
+      <div className='block md:px-20 px-10 justify-center text-center' id='projects'>
+        <h1 className="text-2xl p-4 font-bold" >My projects</h1>
+          <div className='flex flex-wrap justify-center w-full'>
+            {projectData.map((project) => (
+                <ProjectComponent
+                  key={project.id}
+                  name={project.name}
+                  url={project.url}
+                  description={project.description}
+                  image_url={project.image_url}
+                  code={project.code}
+                />
+              ))
+            }
+          </div>
     </div>
   );
-
-
-    // const [projects, setProjects] = useState([]);
-    // const [loading, setLoading] = useState(false);
-    
-
-    // return(
-    //     <div id='projects' className='justify-center'>
-    //         <h1 className="text-2xl">Projects</h1>
-    //         <div className="flex flex-wrap justify-center">
-                
-
-    //         </div>
-    //     </div>
-    // )
     
 }
 

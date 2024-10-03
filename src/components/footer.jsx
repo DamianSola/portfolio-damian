@@ -9,14 +9,8 @@ const Footer = () => {
     return (
       <footer className="text-white p-10 bg-gradient-to-r from-cyan-500 to-blue-900">
         <div className="container mx-auto px-4">
-          {/* Contenedor principal */}
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
-          {/* <div className="flex text-white text-2xl font-bold p-6">
-            <Image src={LogoBlanco} alt="logo-blanco" width="120" height="120"/>
-          </div> */}
-            {/* Sección de enlaces */}
-            <div className="w-full md:w-1/3">
-              {/* <h2 className="text-lg font-bold mb-4">Enlaces útiles</h2> */}
+          <div className="flex flex-col-reverse md:flex-row justify-between items-center space-y-6 md:space-y-0">
+            <div className="w-full md:w-1/3 md:font-medium font-semibold md:text-left text-center my-10">
               <ul className="space-y-2">
                 <li><a href="#home" className="hover:underline">Home</a></li>
                 <li><a href="#about" className="hover:underline">About</a></li>
@@ -25,8 +19,7 @@ const Footer = () => {
               </ul>
             </div>
   
-            {/* Sección de contacto */}
-            <div className="w-full md:w-1/3">
+            <div className="w-full md:w-1/3" id='contact'>
               
               <h2 className="text-lg font-bold mb-4">Contact</h2>
               

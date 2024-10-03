@@ -1,10 +1,35 @@
 [
     {
-        "id":"project-01",
-        "name":"Colmena",
-        "description":"",
-        "url":"",
-        "image_url":"",
-        "code":""
+        "id":"infinium",
+        "name":"Infinium Analitics",
+        "description":"Infinium is a static site of a data management company. They main service are business intelligence, machine learning, market insights, web development",
+        "url":"https://infiniumanalytics.net/",
+        "image_url":"https://infiniumanalytics.net/_next/static/media/Picture2.e6319997.png",
+        "code":"https://github.com/DamianSola/Infinium-Analytics"
+    },
+    {
+        "id":"carofduty",
+        "name":"Car of Duty",
+        "description":"It is a web application with the objective of making online appointments to go to the mechanic and perform routine services. The app shows the service in detail. It was created with next, react, redux thunck, node and mongoDB.",
+        "url":"https://carof-duty-app.vercel.app/",
+        "image_url":"https://carof-duty-app.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoBlue.f5679a81.png&w=384&q=75",
+        "code":"https://github.com/DamianSola/CarofDuty-App"
+    },
+    {
+        "id":"RickandMortyChallenge",
+        "name":"Rick and Morty Challenge",
+        "description":"It is a simple one page application developed for a challenge. It is about obtaining the characters from the TV series Rick and Morty and showing them along with their characteristics.",
+        "url":"https://kimche-challenge-five.vercel.app/",
+        "image_url":"https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
+        "code":"https://github.com/DamianSola/Kimche-challenge"
+    },  
+    {
+        "id":"colmena",
+        "name":"colmena",
+        "description":"It is a dynamic website for a real estate development company.",
+        "url":"https://colmena-pi.vercel.app",
+        "image_url":"https://colmena-pi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogoColmena.a5198c5a.png&w=640&q=75",
+        "code":"https://github.com/DamianSola/Colmena"
     }
+   
 ]
