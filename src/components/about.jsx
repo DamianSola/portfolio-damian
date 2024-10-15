@@ -1,6 +1,7 @@
 import Link from "next/link";
 import StackTech from "./stack";
 import Image from "next/image";
+import Foto from "./about2.png"
 
 
 
@@ -11,7 +12,9 @@ const About = () => {
             <div className="block md:flex items-center justify-between">
                
             <div className="md:p-6 w-full text-center">
-            <img src="https://img.freepik.com/foto-gratis/disenador-web-freelance-masculino-maduro-sentado-espacio-trabajo-conjunto-trabajando-computadora-portatil-escribiendo-tareas-cuaderno_176420-7919.jpg"
+            {/* <img src="https://img.freepik.com/foto-gratis/disenador-web-freelance-masculino-maduro-sentado-espacio-trabajo-conjunto-trabajando-computadora-portatil-escribiendo-tareas-cuaderno_176420-7919.jpg"
+                alt="foto-facha" className="rounded-xl" data-aos="fade-right"/> */}
+                  <Image src={Foto}
                 alt="foto-facha" className="rounded-xl" data-aos="fade-right"/>
             </div>
             <aside className="block py-6 md:p-6 w-full text-center" >
@@ -30,7 +33,7 @@ const About = () => {
                     </p>
                 </section>
                 <section className="flex justify-center md:justify-left  text-white p-2" data-aos="fade-up">
-                    <Link href='https://drive.google.com/file/d/1xROfJ-BvsPCZOnYFVUs7_Ci5StkriSSs/view?usp=sharing'
+                    <Link href='https://drive.google.com/file/d/1DIrEr_muiZKb8F17nEFJ9BQfjbav_Ii8/view'
                         target="_blank"
                         className="bg-gray-900 p-2 m-2 rounded-md border border-gray-500 shadow-md hover:bg-[#ededed] hover:text-gray-900 duration-75"> My CV</Link>
                     <Link href="/#contact" className="bg-gray-900 p-2 m-2 rounded-md border border-gray-500 shadow-md  hover:bg-[#ededed] hover:text-gray-900 duration-75">contact me</Link>

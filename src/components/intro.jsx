@@ -2,14 +2,20 @@
 import Image from "next/image"
 import StackTech from "./stack"
 import Link from "next/link"
+import DamianImage from "./photo-portfolio1.jpg"
+import DamianImage1 from "./photo-portfolio3.jpg"
 
 const Intro = () => {
     return(
     <div className="md:p-8 p-6 flex flex-col md:flex-row md:justify-around md:min-h-dvh md:items-center bg-gradient-to-r from-cyan-500 to-blue-200 dark:to-blue-900 dark:from-cyan-500">
         
         <aside className="block md:hidden md:p-4 ">
-            <Image src="https://img.freepik.com/fotos-premium/ilustracion-fotografias-stock_1137879-157821.jpg"
+            {/* <Image src="https://img.freepik.com/fotos-premium/ilustracion-fotografias-stock_1137879-157821.jpg"
             width={400} height={400} alt='foto-perfil'
+            className="rounded-full	w-full"
+            /> */}
+            <Image src={DamianImage1}
+            width={100} height={100} alt='foto-perfil'
             className="rounded-full	w-full"
             />
         </aside>
@@ -28,8 +34,16 @@ const Intro = () => {
         </div>
 
         <aside className="hidden md:block md:p-4 px-4" data-aos="fade-up">
-            <Image src="https://img.freepik.com/fotos-premium/ilustracion-fotografias-stock_1137879-157821.jpg"
+            {/* <Image src="https://img.freepik.com/fotos-premium/ilustracion-fotografias-stock_1137879-157821.jpg"
             width={500} height={500} alt='foto-perfil'
+            className="rounded-full	w-full"
+            /> */}
+            {/* <Image src={DamianImage}
+            width={300} height={300} alt='foto-perfil'
+            className="rounded-full	w-full"
+            />  */}
+            <Image src={DamianImage1}
+            width={300} height={300} alt='foto-perfil'
             className="rounded-full	w-full"
             />
         </aside>
