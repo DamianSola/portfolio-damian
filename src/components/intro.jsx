@@ -22,11 +22,11 @@ const Intro = () => {
         
         <div className=" text-center md:w-1/2" data-aos="fade-up">
             <h1 className="text-3xl md:text-4xl md:py-6 py-4 font-bold">Welcome to my portfolio!</h1>
-            <p className="text-ls md:text-xl md:py-6 py-4">
-                Hello! I'm Damian Sola and i'm software developer.
-                I'm loocking job while i keep learning and specializing doing personal and paid projects of freelance way.
-
+            <p className="text-sm md:text-xl md:py-6 py-4">
+                {"Hello! I'm Damian Sola and I'm a software developer. "}
+                {"I'm looking for a job while I continue learning and specializing by working on personal and paid freelance projects."}
             </p>
+
             <div className=" text-white w-full py-6">
                 <Link href="#about" className="m-2 bg-gray-900 w-fit p-2 rounded-md border border-gray-500 hover:bg-transparent shadow-md duration-75 ">More about me</Link>
                 <Link href="#projects" className="m-2 bg-gray-900 w-fit p-2 rounded-md border border-gray-500 hover:bg-transparent shadow-md duration-75 "> My projects</Link>
