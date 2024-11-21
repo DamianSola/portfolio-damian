@@ -7,6 +7,7 @@ import Footer from "@/components/footer";
 import Projects from "@/components/projects";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import MyProjects from "@/components/MyProjects";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Intro/>
         <About/>
         <Projects/>
+        <MyProjects/>
         <Footer/>
       </main>
       

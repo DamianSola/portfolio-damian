@@ -1,4 +1,4 @@
-[
+{"myJobs":[
     {
         "id":"infinium",
         "name":"Infinium Analitics",
@@ -8,21 +8,13 @@
         "code":"https://github.com/DamianSola/Infinium-Analytics"
     },
     {
-        "id":"carofduty",
-        "name":"Car of Duty",
-        "description":"It is a web application with the objective of making online appointments to go to the mechanic and perform routine services. The app shows the service in detail. It was created with next, react, redux thunck, node and mongoDB.",
-        "url":"https://carof-duty-app.vercel.app/",
-        "image_url":"https://carof-duty-app.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoBlue.f5679a81.png&w=384&q=75",
-        "code":"https://github.com/DamianSola/CarofDuty-App"
+        "id":"snsabogados",
+        "name":"SNS Abogados",
+        "description":"This is a law firm website. Developed with js, tailwind, react and next.",
+        "url":"https://snsabogados.com.ar",
+        "image_url":"https://snsabogados.com.ar/_next/static/media/sns-logo.17aaed94.png",
+        "code":"https://github.com/DamianSola/sns-abogados"
     },
-    {
-        "id":"RickandMortyChallenge",
-        "name":"Rick and Morty Challenge",
-        "description":"It is a simple one page application developed for a challenge. It is about obtaining the characters from the TV series Rick and Morty and showing them along with their characteristics.",
-        "url":"https://rickandmorty-challenge.vercel.app/",
-        "image_url":"https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
-        "code":"https://github.com/DamianSola/Kimche-challenge"
-    },  
     {
         "id":"colmena",
         "name":"colmena",
@@ -32,4 +24,31 @@
         "code":"https://github.com/DamianSola/Colmena"
     }
    
-]
+    
+],
+
+"myProjects":[
+    {
+        "id":"carofduty",
+        "name":"Car of Duty",
+        "description":"It is a web application with the objective of making online appointments to go to the mechanic and perform routine services. The app shows the service in detail. It was created with next, react, redux thunck, node and mongoDB.",
+        "url":"https://carof-duty-app.vercel.app/",
+        "image_url":"https://carof-duty-app.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoBlue.f5679a81.png&w=384&q=75",
+        "code":"https://github.com/DamianSola/CarofDuty-App"
+    }, {
+        "id":"checked",
+        "name":"Checked",
+        "description":"Is a web application that allows users to create and manage their own event. Typescript 100%",
+        "url":"https://checked-six.vercel.app/",
+        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipys5QsBblfPTcQULhVYnEJ9kJ5fgCIrpjw&s",
+        "code":"https://github.com/DamianSola/checked-app"
+    },
+    {
+        "id":"RickandMortyChallenge",
+        "name":"Rick and Morty Challenge",
+        "description":"It is a simple one page application developed for a challenge. It is about obtaining the characters from the TV series Rick and Morty and showing them along with their characteristics.",
+        "url":"https://rickandmorty-challenge.vercel.app/",
+        "image_url":"https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
+        "code":"https://github.com/DamianSola/Kimche-challenge"
+    }
+]}
