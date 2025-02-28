@@ -33,7 +33,7 @@ const About = () => {
                     </p>
                 </section>
                 <section className="flex justify-center md:justify-left  text-white p-2" data-aos="fade-up">
-                    <Link href='https://drive.google.com/file/d/1QemeJ96NjL7Vfb3_QcMir98RgxSqo0Ix/view?usp=sharing'
+                    <Link href='https://drive.google.com/file/d/1rN8l9Fj4ZX5Kvin4wF309ykWOBNi-HwQ/view?usp=sharing'
                         target="_blank"
                         className="bg-gray-900 p-2 m-2 rounded-md border border-gray-500 shadow-md hover:bg-[#ededed] hover:text-gray-900 duration-75"> My CV</Link>
                     <Link href="/#contact" className="bg-gray-900 p-2 m-2 rounded-md border border-gray-500 shadow-md  hover:bg-[#ededed] hover:text-gray-900 duration-75">contact me</Link>
