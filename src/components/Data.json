@@ -16,6 +16,14 @@
         "code":"https://github.com/DamianSola/sns-abogados"
     },
     {
+        "id":"SantGallFriburg",
+        "name":"Santa Gall Friburg",
+        "description":"This page is teh ofiacial web site of a laboratory from Argenetina. Developed with js, moduleCss, react and next.",
+        "url":"https://santgallfriburg.com.ar/",
+        "image_url":"https://santgallfriburg.com.ar/_next/static/media/sg-logo.fc7d5d33.png",
+        "code":"https://github.com/DamianSola/Sant-Gall-Friburg"
+    },
+    {
         "id":"colmena",
         "name":"colmena",
         "description":"It is a dynamic website for a real estate development company.",
