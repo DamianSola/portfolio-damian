@@ -1,9 +1,9 @@
-import { ThemeProvider } from '../context/themeContext'
+import { ThemeProvider } from '@/context/themeContext'
 import './globals.css'
 
 export const metadata = {
-  title: 'Tu Portfolio',
-  description: 'Portfolio profesional',
+  title: 'Damian Sola',
+  description: 'Desarrollador Fullstack',
 }
 
 export default function RootLayout({ children }) {
