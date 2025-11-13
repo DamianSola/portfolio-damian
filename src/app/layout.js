@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'Damian Sola',
-  description: 'Desarrollador Fullstack',
+  description: 'Desarrollador web Fullstack',
 }
 
 export default function RootLayout({ children }) {
