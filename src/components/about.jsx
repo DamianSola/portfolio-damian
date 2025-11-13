@@ -12,10 +12,16 @@ const About = () => {
       description: "Fue mi primer proyecto individual remunerado y atravece por varios desafios, principalmente en el desarrollo de estilos",
       year: "2023"
     },
+     {
+      id: 2,
+      title: "TailwindCSS",
+      description: "Desarrollé mi primera aplicación con tailwindCSS. Desde entoces no deje de implemetarlo y actualmente es uno de mis pricipales stacks",
+      year: "2024"
+    },
     {
       id: 2,
       title: "TypeScript",
-      description: "Desarrollé Mi primera aplicación con typeScript tanto en front-end como en back-end. La aplicacion es Checked",
+      description: "Desarrollé mi primera aplicación con typeScript tanto en front-end como en back-end. La aplicacion es Checked",
       year: "2024"
     },
     {
@@ -75,7 +81,7 @@ const About = () => {
             {/* Action Buttons */}
             <section className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 mb-8">
               <Link 
-                href='https://drive.google.com/file/d/1euPqUY9l70FM2HMH_bGVMbdZf9MRrdAT/view?usp=sharing'
+                href='https://drive.google.com/file/d/1AVUQwSAXyd_0uP4dlJjzHd9_MxhND2-P/view'
                 target="_blank"
                 className="bg-gray-900 text-white px-6 py-3 rounded-lg border border-gray-700 shadow-md hover:bg-blue-600 hover:border-blue-500 transform hover:-translate-y-1 transition-all duration-300 text-center font-medium"
               >
