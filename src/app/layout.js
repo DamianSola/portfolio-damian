@@ -1,4 +1,4 @@
-import { ThemeProvider } from '../context/themeContext.js'
+import { ThemeProvider } from '../context/themeContext'
 import './globals.css'
 
 export const metadata = {
