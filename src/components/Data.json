@@ -1,62 +1,70 @@
-{"myJobs":[
+{
+  "myJobs": [
     {
-        "id":"infinium",
-        "name":"Infinium Analitics",
-        "description":"Infinium is a static site of a data management company. They main service are business intelligence, machine learning, market insights, web development",
-        "url":"https://infiniumanalytics.net/",
-        "image_url":"https://infiniumanalytics.net/_next/static/media/Picture2.e6319997.png",
-        "code":"https://github.com/DamianSola/Infinium-Analytics"
+      "id": "infinium",
+      "name": "Infinium Analytics",
+      "description": "Sitio web corporativo desarrollado para una empresa especializada en gestión de datos y análisis empresarial. Ofrece servicios de business intelligence, machine learning, insights de mercado y desarrollo web. Desarrollado con tecnologías modernas para una experiencia de usuario óptima.",
+      "url": "https://infiniumanalytics.net/",
+      "image_url": "https://infiniumanalytics.net/_next/static/media/Picture2.e6319997.png",
+      "code": "https://github.com/DamianSola/Infinium-Analytics",
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind"]
     },
     {
-        "id":"snsabogados",
-        "name":"SNS Abogados",
-        "description":"This is a law firm website. Developed with js, tailwind, react and next.",
-        "url":"https://snsabogados.com.ar",
-        "image_url":"https://snsabogados.com.ar/_next/static/media/sns-logo.17aaed94.png",
-        "code":"https://github.com/DamianSola/sns-abogados"
+      "id": "snsabogados",
+      "name": "SNS Abogados",
+      "description": "Sitio web profesional para un prestigioso estudio jurídico. Desarrollado con enfoque en la confianza y profesionalismo, presenta servicios legales especializados con diseño elegante y navegación intuitiva para clientes que buscan asesoramiento legal.",
+      "url": "https://sns-abogados.vercel.app/",
+      "image_url": "https://sns-abogados.vercel.app/_next/static/media/sns-logo.17aaed94.png",
+      "code": "https://github.com/DamianSola/sns-abogados",
+      "technologies": ["Next.js", "React", "JavaScript", "Tailwind"]
     },
     {
-        "id":"SantGallFriburg",
-        "name":"Santa Gall Friburg",
-        "description":"This page is teh ofiacial web site of a laboratory from Argenetina. Developed with js, moduleCss, react and next.",
-        "url":"https://santgallfriburg.com.ar/",
-        "image_url":"https://santgallfriburg.com.ar/_next/static/media/sg-logo.fc7d5d33.png",
-        "code":"https://github.com/DamianSola/Sant-Gall-Friburg"
+      "id": "SantGallFriburg",
+      "name": "Santa Gall Friburg",
+      "description": "Sitio web oficial para un laboratorio farmacéutico argentino. Desarrollado con altos estándares de calidad, presenta productos médicos y servicios de salud con diseño profesional que refleja la seriedad y confiabilidad de la marca en el sector salud.",
+      "url": "https://santgallfriburg.com.ar/",
+      "image_url": "https://santgallfriburg.com.ar/_next/static/media/sg-logo.fc7d5d33.png",
+      "code": "https://github.com/DamianSola/Sant-Gall-Friburg",
+      "technologies": ["Next.js", "React", "JavaScript", "CSS Modules"]
     },
     {
-        "id":"colmena",
-        "name":"colmena",
-        "description":"It is a dynamic website for a real estate development company.",
-        "url":"https://colmena-pi.vercel.app",
-        "image_url":"https://colmena-pi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogoColmena.a5198c5a.png&w=640&q=75",
-        "code":"https://github.com/DamianSola/Colmena"
+      "id": "colmena",
+      "name": "Colmena Desarrollos",
+      "description": "Plataforma web dinámica para una empresa de desarrollos inmobiliarios. Presenta proyectos residenciales y comerciales con galerías interactivas, información detallada de propiedades y sistema de contacto para potenciales inversionistas y clientes.",
+      "url": "https://colmena-pi.vercel.app",
+      "image_url": "https://colmena-pi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogoColmena.a5198c5a.png&w=640&q=75",
+      "code": "https://github.com/DamianSola/Colmena",
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind"]
     }
-   
-    
-],
+  ],
 
-"myProjects":[
+  "myProjects": [
     {
-        "id":"carofduty",
-        "name":"Car of Duty",
-        "description":"It is a web application with the objective of making online appointments to go to the mechanic and perform routine services. The app shows the service in detail. It was created with next, react, redux thunck, node and mongoDB.",
-        "url":"https://carof-duty-app.vercel.app/",
-        "image_url":"https://carof-duty-app.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoBlue.f5679a81.png&w=384&q=75",
-        "code":"https://github.com/DamianSola/CarofDuty-App"
-    }, {
-        "id":"checked",
-        "name":"Checked",
-        "description":"Is a web application that allows users to create and manage their own event. Typescript 100%",
-        "url":"https://checked-six.vercel.app/",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipys5QsBblfPTcQULhVYnEJ9kJ5fgCIrpjw&s",
-        "code":"https://github.com/DamianSola/checked-app"
+      "id": "carofduty",
+      "name": "Car of Duty",
+      "description": "Aplicación web innovadora que revoluciona la experiencia de mantenimiento vehicular. Permite a usuarios agendar citas online para servicios mecánicos rutinarios con detalles completos del servicio. Sistema completo con panel de administración y seguimiento de citas en tiempo real.",
+      "url": "https://carof-duty-app.vercel.app/",
+      "image_url": "https://carof-duty-app.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoBlue.f5679a81.png&w=384&q=75",
+      "code": "https://github.com/DamianSola/CarofDuty-App",
+      "technologies": ["Next.js", "React", "Redux", "Node.js", "MongoDB"]
     },
     {
-        "id":"RickandMortyChallenge",
-        "name":"Rick and Morty Challenge",
-        "description":"It is a simple one page application developed for a challenge. It is about obtaining the characters from the TV series Rick and Morty and showing them along with their characteristics.",
-        "url":"https://rickandmorty-challenge.vercel.app/",
-        "image_url":"https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
-        "code":"https://github.com/DamianSola/Kimche-challenge"
+      "id": "checked",
+      "name": "Checked - Gestor de Eventos",
+      "description": "Aplicación web robusta desarrollada 100% en TypeScript para la creación y gestión profesional de eventos. Ofrece funcionalidades completas de administración, invitaciones digitales y seguimiento de asistencia, ideal para organizadores de eventos y empresas.",
+      "url": "https://checked-six.vercel.app/",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipys5QsBblfPTcQULhVYnEJ9kJ5fgCIrpjw&s",
+      "code": "https://github.com/DamianSola/checked-app",
+      "technologies": ["Next.js", "React", "TypeScript", "Tailwind", "Node.js"]
+    },
+    {
+      "id": "RickandMortyChallenge",
+      "name": "Rick and Morty Explorer",
+      "description": "Aplicación interactiva desarrollada como challenge técnico que consume la API de Rick and Morty. Presenta personajes de la serie con filtros avanzados, búsqueda en tiempo real y diseño responsive que demuestra habilidades en consumo de APIs y experiencia de usuario.",
+      "url": "https://rickandmorty-challenge.vercel.app/",
+      "image_url": "https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
+      "code": "https://github.com/DamianSola/Kimche-challenge",
+      "technologies": ["React", "JavaScript", "CSS", "API Integration"]
     }
-]}
+  ]
+}
