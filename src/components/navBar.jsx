@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { useTheme } from '../context/themeContext';
+import { useTheme } from '@/context/themeContext';
 
 const LinkItems = [  
     { link: "Inicio", linkRef: "/" },
