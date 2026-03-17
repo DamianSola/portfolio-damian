@@ -15,7 +15,7 @@
       "description": "Sitio web profesional para un prestigioso estudio jurídico. Desarrollado con enfoque en la confianza y profesionalismo, presenta servicios legales especializados con diseño elegante y navegación intuitiva para clientes que buscan asesoramiento legal.",
       "url": "https://sns-abogados.vercel.app/",
       "image_url": "https://sns-abogados.vercel.app/_next/static/media/sns-logo.17aaed94.png",
-      "code": "https://github.com/DamianSola/sns-abogados",
+      "code": "https://github.com/DamianSola/estudio-abogados",
       "technologies": ["Next.js", "React", "JavaScript", "Tailwind"]
     },
     {
