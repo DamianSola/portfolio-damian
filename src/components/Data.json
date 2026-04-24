@@ -65,6 +65,15 @@
       "image_url": "https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
       "code": "https://github.com/DamianSola/Kimche-challenge",
       "technologies": ["React", "JavaScript", "CSS", "API Integration"]
+    },
+    {
+      "id": "MonoNegro",
+      "name": "Mono Negro",
+      "description": "Aplicación landing page pensada para un negocio de planes de entrenamiento premium, espesifica el entrenamiento y para publico va dirigido, de tal manera que filtra muchos potenciales clientes",
+      "url": "https://mononegro.vercel.app/",
+      "image_url": "https://mononegro.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoMN.21c6921a.jpeg&w=1080&q=75",
+      "code": "https://github.com/DamianSola/mono-negro",
+      "technologies": ["React", "TypeScript", "TailwindCSS"]
     }
   ]
 }
