@@ -5,22 +5,27 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: 'class', // 👈 Agrega esta línea
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
+        bg: '#0A0A0A',
+        surface: '#111111',
+        primary: '#FFFFFF',
+        secondary: '#A1A1AA',
+        border: 'rgba(255, 255, 255, 0.08)',
       },
-      animation: {
-        'fade-in': 'fadeIn 0.5s ease-in-out',
+      fontFamily: {
+        inter: ['var(--font-inter)', 'system-ui', 'sans-serif'],
       },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
-        }
-      }
+      letterSpacing: {
+        hero: '-0.03em',
+      },
+      transitionDuration: {
+        DEFAULT: '200ms',
+      },
+      transitionTimingFunction: {
+        DEFAULT: 'ease',
+      },
     },
   },
   plugins: [],
