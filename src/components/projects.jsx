@@ -1,33 +1,31 @@
 'use client'
 
-import ProjectComponent from './projectComponent'
+import ProjectCard from './projectComponent'
 import projectData from './Data.json'
 
-const featuredProjects = [
-  ...projectData.myJobs.slice(0, 2),
-  ...projectData.myProjects.slice(0, 2),
-].slice(0, 4)
-
 export default function Projects() {
-  return (
-    <section
-      id="proyectos"
-      className="px-6 md:px-12 lg:px-20 py-20 md:py-28 lg:py-32 border-t border-white/[0.06]"
-    >
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-sm font-medium text-secondary uppercase tracking-widest mb-16 md:mb-20">
-          Proyectos
-        </h2>
+  const { projects } = projectData
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 lg:gap-20">
-          {featuredProjects.map((project) => (
-            <ProjectComponent
-              key={project.id}
-              name={project.name}
-              url={project.url}
-              description={project.description}
-              image_url={project.image_url}
-            />
+  return (
+    <section id="proyectos" className="px-6 py-24 md:py-32">
+      <div className="max-w-5xl mx-auto">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-14">
+          <div>
+            <p className="font-mono text-xs text-accent uppercase tracking-widest mb-3">
+              01 — Trabajo
+            </p>
+            <h2 className="font-display font-bold text-3xl md:text-4xl tracking-tight text-secondary">
+              Proyectos seleccionados
+            </h2>
+          </div>
+          <p className="text-muted text-sm max-w-xs">
+            {projects.length} proyectos entre clientes reales y productos propios.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {projects.map((project, index) => (
+            <ProjectCard key={project.id} project={project} index={index} />
           ))}
         </div>
       </div>

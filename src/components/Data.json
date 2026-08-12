@@ -1,79 +1,84 @@
 {
-  "myJobs": [
+  "projects": [
     {
       "id": "infinium",
       "name": "Infinium Analytics",
-      "description": "Sitio web corporativo desarrollado para una empresa especializada en gestión de datos y análisis empresarial. Ofrece servicios de business intelligence, machine learning, insights de mercado y desarrollo web. Desarrollado con tecnologías modernas para una experiencia de usuario óptima.",
+      "tagline": "Sitio corporativo de business intelligence y analytics.",
       "url": "https://infiniumanalytics.net/",
-      "image_url": "https://infiniumanalytics.net/_next/static/media/Picture2.e6319997.png",
       "code": "https://github.com/DamianSola/Infinium-Analytics",
-      "technologies": ["Next.js", "React", "TypeScript", "Tailwind"]
+      "technologies": ["Next.js", "TypeScript", "Tailwind"],
+      "type": "client",
+      "year": "2024"
     },
     {
       "id": "snsabogados",
       "name": "SNS Abogados",
-      "description": "Sitio web profesional para un prestigioso estudio jurídico. Desarrollado con enfoque en la confianza y profesionalismo, presenta servicios legales especializados con diseño elegante y navegación intuitiva para clientes que buscan asesoramiento legal.",
+      "tagline": "Web institucional para estudio jurídico.",
       "url": "https://sns-abogados.vercel.app/",
-      "image_url": "https://sns-abogados.vercel.app/_next/static/media/sns-logo.17aaed94.png",
       "code": "https://github.com/DamianSola/estudio-abogados",
-      "technologies": ["Next.js", "React", "JavaScript", "Tailwind"]
+      "technologies": ["Next.js", "React", "Tailwind"],
+      "type": "client",
+      "year": "2024"
     },
     {
-      "id": "SantGallFriburg",
+      "id": "santgall",
       "name": "Santa Gall Friburg",
-      "description": "Sitio web oficial para un laboratorio farmacéutico argentino. Desarrollado con altos estándares de calidad, presenta productos médicos y servicios de salud con diseño profesional que refleja la seriedad y confiabilidad de la marca en el sector salud.",
+      "tagline": "Portal para laboratorio farmacéutico argentino.",
       "url": "https://santgallfriburg.com.ar/",
-      "image_url": "https://santgallfriburg.com.ar/_next/static/media/sg-logo.fc7d5d33.png",
       "code": "https://github.com/DamianSola/Sant-Gall-Friburg",
-      "technologies": ["Next.js", "React", "JavaScript", "CSS Modules"]
+      "technologies": ["Next.js", "React", "CSS Modules"],
+      "type": "client",
+      "year": "2024"
     },
     {
       "id": "colmena",
       "name": "Colmena Desarrollos",
-      "description": "Plataforma web dinámica para una empresa de desarrollos inmobiliarios. Presenta proyectos residenciales y comerciales con galerías interactivas, información detallada de propiedades y sistema de contacto para potenciales inversionistas y clientes.",
+      "tagline": "Plataforma inmobiliaria con catálogo de proyectos.",
       "url": "https://colmena-pi.vercel.app",
-      "image_url": "https://colmena-pi.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogoColmena.a5198c5a.png&w=640&q=75",
       "code": "https://github.com/DamianSola/Colmena",
-      "technologies": ["Next.js", "React", "TypeScript", "Tailwind"]
-    }
-  ],
-
-  "myProjects": [
-    {
-      "id": "carofduty",
-      "name": "Car of Duty",
-      "description": "Aplicación web innovadora que revoluciona la experiencia de mantenimiento vehicular. Permite a usuarios agendar citas online para servicios mecánicos rutinarios con detalles completos del servicio. Sistema completo con panel de administración y seguimiento de citas en tiempo real.",
-      "url": "https://carof-duty-app.vercel.app/",
-      "image_url": "https://carof-duty-app.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoBlue.f5679a81.png&w=384&q=75",
-      "code": "https://github.com/DamianSola/CarofDuty-App",
-      "technologies": ["Next.js", "React", "Redux", "Node.js", "MongoDB"]
+      "technologies": ["Next.js", "TypeScript", "Tailwind"],
+      "type": "client",
+      "year": "2024"
     },
     {
       "id": "checked",
-      "name": "Checked - Gestor de Eventos",
-      "description": "Aplicación web robusta desarrollada 100% en TypeScript para la creación y gestión profesional de eventos. Ofrece funcionalidades completas de administración, invitaciones digitales y seguimiento de asistencia, ideal para organizadores de eventos y empresas.",
+      "name": "Checked",
+      "tagline": "Gestor de eventos full TypeScript con invitaciones y RSVP.",
       "url": "https://checked-six.vercel.app/",
-      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRipys5QsBblfPTcQULhVYnEJ9kJ5fgCIrpjw&s",
       "code": "https://github.com/DamianSola/checked-app",
-      "technologies": ["Next.js", "React", "TypeScript", "Tailwind", "Node.js"]
+      "technologies": ["Next.js", "TypeScript", "Node.js"],
+      "type": "personal",
+      "year": "2024"
     },
     {
-      "id": "RickandMortyChallenge",
-      "name": "Rick and Morty Explorer",
-      "description": "Aplicación interactiva desarrollada como challenge técnico que consume la API de Rick and Morty. Presenta personajes de la serie con filtros avanzados, búsqueda en tiempo real y diseño responsive que demuestra habilidades en consumo de APIs y experiencia de usuario.",
+      "id": "carofduty",
+      "name": "Car of Duty",
+      "tagline": "Agenda de turnos mecánicos con panel de administración.",
+      "url": "https://carof-duty-app.vercel.app/",
+      "code": "https://github.com/DamianSola/CarofDuty-App",
+      "technologies": ["Next.js", "Redux", "MongoDB"],
+      "type": "personal",
+      "year": "2023"
+    },
+    {
+      "id": "rickmorty",
+      "name": "Rick & Morty Explorer",
+      "tagline": "Challenge técnico con filtros y búsqueda sobre la API.",
       "url": "https://rickandmorty-challenge.vercel.app/",
-      "image_url": "https://i5.walmartimages.com/seo/Rick-and-Morty-Metal-Wall-Art_bcc4085e-c311-4886-a7a4-aa58127883d7.5958f8a36f96aa4c08dbc4a8a580e57c.png",
       "code": "https://github.com/DamianSola/Kimche-challenge",
-      "technologies": ["React", "JavaScript", "CSS", "API Integration"]
+      "technologies": ["React", "JavaScript", "REST API"],
+      "type": "personal",
+      "year": "2023"
     },
     {
-      "id": "MonoNegro",
+      "id": "mononegro",
       "name": "Mono Negro",
-      "description": "Aplicación landing page pensada para un negocio de planes de entrenamiento premium, espesifica el entrenamiento y para publico va dirigido, de tal manera que filtra muchos potenciales clientes",
+      "tagline": "Landing para planes de entrenamiento premium.",
       "url": "https://mononegro.vercel.app/",
-      "image_url": "https://mononegro.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FlogoMN.21c6921a.jpeg&w=1080&q=75",
       "code": "https://github.com/DamianSola/mono-negro",
-      "technologies": ["React", "TypeScript", "TailwindCSS"]
+      "technologies": ["React", "TypeScript", "Tailwind"],
+      "type": "personal",
+      "year": "2024"
     }
   ]
 }
