@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 function getDomain(url) {
   try {
     return new URL(url).hostname.replace('www.', '')
@@ -8,26 +10,41 @@ function getDomain(url) {
   }
 }
 
-export default function ProjectCard({ project, index }) {
-  const { name, tagline, url, code, technologies, type, year } = project
+export default function ProjectCard({ project }) {
+  const { name, tagline, url, code, technologies, type, year, masterpiece, image } = project
   const domain = getDomain(url)
-  const number = String(index + 1).padStart(2, '0')
+  const label = masterpiece ? 'Masterpiece' : type === 'client' ? 'Cliente' : 'Personal'
 
   return (
-    <article className="group bg-surface border border-line rounded-lg overflow-hidden shadow-card hover:shadow-card-hover hover:border-complementary/40 transition-all duration-300">
+    <article
+      className={`group bg-surface border rounded-lg overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-300 ${
+        masterpiece
+          ? 'md:col-span-2 border-accent/50 hover:border-accent'
+          : 'border-line hover:border-complementary/40'
+      }`}
+    >
       <a href={url} target="_blank" rel="noopener noreferrer" className="block p-6">
-        <div className="relative mb-5 h-32 rounded-md bg-bg border border-line overflow-hidden">
-          <div className="absolute inset-0 grid-bg opacity-60" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center gap-1.5 p-4">
-            <span className="font-mono text-[10px] text-complementary uppercase tracking-widest">
-              {type === 'client' ? 'Cliente' : 'Personal'}
-            </span>
-            <span className="font-mono text-sm text-secondary text-center truncate max-w-full">
-              {domain}
-            </span>
-          </div>
-          <span className="absolute bottom-2 right-3 font-display font-extrabold text-4xl text-secondary/[0.06] select-none">
-            {number}
+        <div className={`relative mb-5 rounded-md bg-bg border border-line overflow-hidden ${masterpiece ? 'h-52 md:h-72' : 'h-44'}`}>
+          {image ? (
+            <Image
+              src={image}
+              alt={`Captura de ${name}`}
+              fill
+              className="object-cover object-top"
+              sizes={masterpiece ? '(max-width: 768px) 100vw, 1024px' : '(max-width: 768px) 100vw, 480px'}
+            />
+          ) : (
+            <>
+              <div className="absolute inset-0 grid-bg opacity-60" />
+              <div className="absolute inset-0 flex items-center justify-center p-4">
+                <span className="font-mono text-sm text-secondary text-center truncate max-w-full">
+                  {domain}
+                </span>
+              </div>
+            </>
+          )}
+          <span className={`absolute top-3 left-3 font-mono text-[10px] uppercase tracking-widest px-2 py-1 rounded-sm bg-surface/90 border border-line ${masterpiece ? 'text-accent' : 'text-complementary'}`}>
+            {label}
           </span>
         </div>
 

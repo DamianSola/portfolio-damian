@@ -1,14 +1,27 @@
 {
   "projects": [
     {
+      "id": "holos",
+      "name": "Holos",
+      "tagline": "Plataforma para gestionar clientes, ventas, stock, tareas y equipo en un solo lugar.",
+      "url": "https://holos-zeta.vercel.app/",
+      "code": "https://github.com/DamianSola/Holos",
+      "technologies": ["Next.js", "TypeScript", "PostgreSQL"],
+      "type": "personal",
+      "year": "2026",
+      "masterpiece": true,
+      "image": "/projects/holos.png"
+    },
+    {
       "id": "infinium",
       "name": "Infinium Analytics",
       "tagline": "Sitio corporativo de business intelligence y analytics.",
-      "url": "https://infiniumanalytics.net/",
+      "url": "https://infinium-analytics.vercel.app/",
       "code": "https://github.com/DamianSola/Infinium-Analytics",
       "technologies": ["Next.js", "TypeScript", "Tailwind"],
       "type": "client",
-      "year": "2024"
+      "year": "2024",
+      "image": "/projects/infinium.png"
     },
     {
       "id": "snsabogados",
@@ -18,7 +31,8 @@
       "code": "https://github.com/DamianSola/estudio-abogados",
       "technologies": ["Next.js", "React", "Tailwind"],
       "type": "client",
-      "year": "2024"
+      "year": "2024",
+      "image": "/projects/sns.png"
     },
     {
       "id": "santgall",
@@ -28,27 +42,8 @@
       "code": "https://github.com/DamianSola/Sant-Gall-Friburg",
       "technologies": ["Next.js", "React", "CSS Modules"],
       "type": "client",
-      "year": "2024"
-    },
-    {
-      "id": "colmena",
-      "name": "Colmena Desarrollos",
-      "tagline": "Plataforma inmobiliaria con catálogo de proyectos.",
-      "url": "https://colmena-pi.vercel.app",
-      "code": "https://github.com/DamianSola/Colmena",
-      "technologies": ["Next.js", "TypeScript", "Tailwind"],
-      "type": "client",
-      "year": "2024"
-    },
-    {
-      "id": "checked",
-      "name": "Checked",
-      "tagline": "Gestor de eventos full TypeScript con invitaciones y RSVP.",
-      "url": "https://checked-six.vercel.app/",
-      "code": "https://github.com/DamianSola/checked-app",
-      "technologies": ["Next.js", "TypeScript", "Node.js"],
-      "type": "personal",
-      "year": "2024"
+      "year": "2024",
+      "image": "/projects/santgall.jpg"
     },
     {
       "id": "carofduty",
@@ -58,17 +53,8 @@
       "code": "https://github.com/DamianSola/CarofDuty-App",
       "technologies": ["Next.js", "Redux", "MongoDB"],
       "type": "personal",
-      "year": "2023"
-    },
-    {
-      "id": "rickmorty",
-      "name": "Rick & Morty Explorer",
-      "tagline": "Challenge técnico con filtros y búsqueda sobre la API.",
-      "url": "https://rickandmorty-challenge.vercel.app/",
-      "code": "https://github.com/DamianSola/Kimche-challenge",
-      "technologies": ["React", "JavaScript", "REST API"],
-      "type": "personal",
-      "year": "2023"
+      "year": "2023",
+      "image": "/projects/carofduty.png"
     },
     {
       "id": "mononegro",
@@ -78,7 +64,8 @@
       "code": "https://github.com/DamianSola/mono-negro",
       "technologies": ["React", "TypeScript", "Tailwind"],
       "type": "personal",
-      "year": "2024"
+      "year": "2024",
+      "image": "/projects/mononegro.png"
     }
   ]
 }
